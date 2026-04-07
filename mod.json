@@ -1,0 +1,35 @@
+{
+	"geode": ">=5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "nwo5.replace_object",
+	"name": "Replace Object",
+	"version": "v2.0.1",
+	"developer": "Nwo5",
+	"description": "object1, object2, object1 is object2 now, :3",
+	"tags": ["editor", "utility", "offline"],
+	"links": {"source": "https://github.com/Nwo5-trg/Replace-Object"},
+	"resources": {
+		"spritesheets": {
+			"Sheet": ["resources/Sheet/*.png"]
+		}
+	},
+	"settings": {
+		"delete-on-replace": {
+			"type": "bool",
+			"name": "Delete On Replace",
+			"description": "Delete the 2 objects you use to select what objects to replace and what to replace with.",
+			"default": false
+		},
+		"select-on-replace": {
+			"type": "bool",
+			"name": "Select On Replace",
+			"description": "Selects everything after replacing.",
+			"default": false
+		}
+	}
+}
